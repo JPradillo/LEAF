@@ -1,0 +1,43 @@
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #CAFA8E;
+    color: black;
+    font-size: 17px;
+}
+  
+footer section {
+    padding: 10px;
+}
+  
+footer section h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+  
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+footer ul li {
+    margin-bottom: 8px;
+}
+  
+footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+  
+footer ul li a:hover {
+    color: darkslategrey;
+}
+
+footer article {
+    width: 100vw;
+    text-align: center;
+    margin-top: 20px;
+}
+  

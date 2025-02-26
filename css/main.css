@@ -1,0 +1,52 @@
+/* Contenedor principal del carrusel */
+#carrusel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: -400px; /* Espacio entre las imágenes */
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+    background: #f5f5f5;
+    border-radius: 10px;
+    height: 300px; /* Ajusta la altura del carrusel */
+  }
+  
+  /* Estilo de los enlaces en el carrusel */
+  #carrusel a {
+    position: relative;
+    width: 500px;
+    height: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.5s ease, filter 0.5s ease;
+  }
+  
+  /* Imágenes dentro de los enlaces */
+  #carrusel img {
+    width: 500px;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(3px) brightness(70%); /* Difumina las imágenes por defecto */
+    transition: filter 0.5s ease;
+  }
+  
+  /* Efecto al pasar el mouse */
+  #carrusel a:hover {
+    transform: scale(1.10); /* Aumenta ligeramente la imagen al pasar el mouse */
+    z-index: 10; /* Lleva la imagen al frente */
+  }
+  
+  #carrusel a:hover img {
+    filter: none; /* Elimina el difuminado y oscurecimiento */
+  }
+  
+  /* Imagen central seleccionada */
+#carrusel a.selected {
+    transform: scale(1.10); /* Escala ligeramente */
+    z-index: 10; /* Lleva la imagen al frente */
+  }
+  
+  #carrusel a.selected img {
+    filter: none; /* Elimina el difuminado y oscurecimiento */
+  }

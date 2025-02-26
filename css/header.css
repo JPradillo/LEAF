@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  background-color: #f5eff6;
+  font-family: "Ar One Sans", sans-serif;
+}
+
+header {
+  height: 280px;
+  width: 100%;
+  background-color: #ece0ed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#logo {
+  margin-left: 8.125%;
+}
+
+#logotipo {
+  width: 159.22px;
+  height: 180px;
+}
+
+#menus {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-right: 8.125%;
+}
+
+button {
+  background-color: #4c0659;
+  color: #cafa8e;
+  width: 177.25px;
+  height: 46px;
+  border-radius: 15px;
+  margin-right: 11px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 0px;
+  box-shadow: gray 3px 3px;
+}
+
+#login {
+  background-color: #cafa8e;
+  color: #6a4070;
+}
+
+svg {
+  width: 36px;
+  height: 36px;
+  margin-left: 22px;
+  vertical-align: middle;
+  border-radius: 12px;
+}
+
+button:hover {
+  filter: brightness(80%);
+}
+
+button:active {
+  filter: brightness(80%);
+  box-shadow: gray 0px 0px;
+}
+
+svg:hover {
+  background-color: #cafa8e;
+  box-shadow: grey 2px 2px;
+}
+
+svg:active {
+  box-shadow: grey -2px -2px;
+}
+
+#logo:hover {
+  animation: growup 1s ease-out infinite alternate;
+}
+
+@keyframes growup {
+  0% {
+    scale: 1;
+  }
+
+  100% {
+    scale: 1.1;
+  }
+}

@@ -1,0 +1,208 @@
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+#logo {
+    margin-left: 10%;
+}
+
+/* Botón productos */
+#productos {
+    background-color: #8A07A3;
+    color: #a8ff78;
+    box-shadow: none;
+}
+
+#productos:hover{
+    filter: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Ubicación y buscador */
+#buscadores {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.ubicacion-buscador {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    gap: 40px;
+}
+
+.buscador {
+    background-color: #F3BFFC;
+    height: 40px;
+    border-radius: 100px;
+    width: 441px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buscador input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.buscador svg {
+    margin-right: 10px;
+}
+
+.ubicacion {
+    /* background-color: #F3BFFC; */
+    padding: 12px;
+    border-radius: 100px;
+    width: 319px;
+}
+
+/* Detalles producto */
+#detalles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+}
+
+.detalles-contenedor {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+}
+
+#detalles img {
+    border-radius: 10px;
+    width: 501px;
+    height: auto;
+    object-fit: cover;
+}
+
+#detalles .info {
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-grow: 1;
+    background-color: #ECE0ED;
+    width: 641px;
+    height: 531px;
+}
+
+h1 .precio {
+    font-size: 20px;
+}
+
+/* Titulos */
+.nombre, .prod_relacionados {
+    width: 100vw;
+    margin-left: 20%;
+    text-align: left;
+    font-size: 19px;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+p {
+    color: #444;
+    font-size: 12px;
+}
+
+button#comprar {
+    background-color: #a8ff78;
+    border: none;
+    color: #4c0659;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.precio-boton {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    justify-content: space-between;
+    align-items: start;
+}
+
+/* Productos relacionados */
+.prod_relacionados {
+    padding-top: 100px;
+    width: 100%;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+#ultimo {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-around;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.relacionado {
+    display: flex;
+    justify-content: space-between;
+}
+
+#ultimo article {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#ultimo p {
+    max-width: 300px;
+}
+
+#ultimo img {
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#ultimo article:nth-child(1) {
+    margin-left: 10vw;
+}
+
+.separador {
+    margin-top: 10%;
+}
+
+.ubicacion a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .ubicacion a:hover {
+    text-decoration: underline;
+  }

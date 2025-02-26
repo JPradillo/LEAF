@@ -1,0 +1,76 @@
+main {
+  padding: 3.5% 8.125%;
+}
+
+#banner {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+#banner img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#carrusel {
+  display: flex;
+  justify-content: center;
+  gap: -200px;
+}
+
+#carrusel img {
+  object-fit: cover;
+  width: 27.9vw;
+  border-radius: 15px;
+  transition: 0.3s ease;
+  cursor: pointer;
+  filter: blur(1px) brightness(85%);
+}
+
+#carrusel img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  filter: none;
+
+}
+
+#propaganda {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px;
+}
+
+#propaganda article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#propaganda article img {
+  width: 58%;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#propaganda article p {
+  width: 35%;
+  font-size: 24px;
+  text-align: center;
+  color: #333;
+}
+
+#novedades {
+  background-color: #8A07A3;
+  box-shadow: none;
+}
+
+#novedades:hover {
+  filter: none;
+}
+

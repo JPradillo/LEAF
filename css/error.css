@@ -1,0 +1,14 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin-bottom: 300px;
+}
+#mensaje_error{
+    display: flex;
+    color: red;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Noto Sans Malayalam', sans-serif;
+}
